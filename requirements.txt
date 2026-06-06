@@ -11,3 +11,11 @@ langserve
 fastapi
 uvicorn
 sse_starlette
+pypdf
+docx2txt
+langchain-google-genai
+beautifulsoup4
+playwright
+unstructured
+chromadb
+faiss-cpu
