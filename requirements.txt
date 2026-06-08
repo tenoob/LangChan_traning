@@ -19,3 +19,5 @@ playwright
 unstructured
 chromadb
 faiss-cpu
+wikipedia
+arxiv
