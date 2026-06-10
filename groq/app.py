@@ -20,7 +20,7 @@ os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 
 if "vector" not in st.session_state:
-    st.session_state.embeddings = GoogleGenerativeAIEmbeddings(model="gemini-embedding-2")  #OllamaEmbeddings(model ="embeddinggemma:300m")
+    st.session_state.embeddings = OllamaEmbeddings(model ="embeddinggemma:300m")
     st.session_state.loader = WebBaseLoader("https://docs.langchain.com/oss/python/integrations/embeddings/ollama")
     st.session_state.docs = st.session_state.loader.load()
 
