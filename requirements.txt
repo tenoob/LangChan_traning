@@ -22,3 +22,5 @@ faiss-cpu
 wikipedia
 arxiv
 langchain-groq
+sentence-transformers
+langchain-huggingface
